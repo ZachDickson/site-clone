@@ -17,3 +17,7 @@
 footer div.row{
   background-color: rebeccapurple;
 }
+
+div.blank{
+  border-bottom: solid 3px rebeccapurple;
+}
