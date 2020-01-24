@@ -1,3 +1,7 @@
 *{
   outline: solid 1px black;
 }
+
+.top{
+  background: linear-gradient(4deg, white 50%, rgb(85, 85, 241) 50%)
+}
