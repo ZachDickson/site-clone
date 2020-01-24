@@ -29,7 +29,7 @@
 <body class="container-fluid">
 
 
-
+  <!-- top section including header-->
   <section class="top">
     <header>
       <div class="row">
@@ -60,9 +60,9 @@
         </div>
       </div>
     </header>
-    <div class="row">
-      <div class="col-12 order-2 order-md-1 col-md-6">
-        <div class="card ml-50" style="width: 18rem;">
+    <div class="row text-center">
+      <div class="col-12 order-2 order-md-1 col-md-6 align-self-end">
+        <div class="card mx-auto bg-transparent" style="width: 15rem;">
           <div class="card-body">
             <h5 class="card-title">Special title treatment</h5>
             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -75,19 +75,61 @@
   </section>
 
   <main>
-
+    <!-- middle section, 3 cards w/ images and buttons-->
     <section class="middle">
-      <div class="row">
-        <div class="col-12 col-md-4">1</div>
-        <div class="col-12 col-md-4">1</div>
-        <div class="col-12 col-md-4">1</div>
+      <div class="row" style="justify-content: center;">
+        <div class="col-12 col-md-3">
+          <div class="card bg-transparent " style="position: relative; top: 2rem;">
+            <img src="https://picsum.photos/100" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body bg-success">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary" style="position: relative; top: 3rem;">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-3">
+          <div class="card bg-transparent" style="position: relative; top: 2rem;">
+            <img src="https://picsum.photos/100" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body bg-success">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary" style="position: relative; top: 3rem;">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-3">
+          <div class="card bg-transparent" style="position: relative; top: 2rem;">
+            <img src="https://picsum.photos/100" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body bg-success">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary" style="position: relative; top: 3rem;">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="row blank">
+        <div class="col-12" style="min-height: 10vh;"></div>
       </div>
     </section>
 
     <section class="bottom">
       <div class="row">
-        <div class="col-12 col-md-6">1</div>
-        <div class="col-12 col-md-6">1</div>
+        <div class="col-12 col-md-6 text-center"><img src="https://picsum.photos/200" alt=""></div>
+        <div class="col-12 col-md-6 text-center">
+          <div class="card">
+            <div class="card-body">
+              This is some text within a card body.
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -97,11 +139,13 @@
   <footer>
     <div class="row">
       <div class="col-12 col-md-4"></div>
-      <div class="col-12 col-md-4">image</div>
+      <div class="col-12 col-md-4 text-center">
+        <img src="https://picsum.photos/200" alt="">
+      </div>
       <div class="col-12 col-md-4"></div>
     </div>
     <div class="row">
-      <div class="col-12">
+      <div class="col-12 bg-dark">
         <ul class="nav">
           <li class="nav-item">
             <a class="nav-link active" href="#">Active</a>

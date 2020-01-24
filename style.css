@@ -3,5 +3,17 @@
 }
 
 .top{
-  background: linear-gradient(4deg, white 50%, rgb(85, 85, 241) 50%)
+  background-color: rgb(245, 23, 23);
+}
+
+.middle{
+  background: rgb(245, 192, 93);
+}
+
+.card{
+  border: 0;
+}
+
+footer div.row{
+  background-color: rebeccapurple;
 }
