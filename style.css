@@ -1,9 +1,15 @@
-*{
+/* *{
   outline: solid 1px black;
-}
+} */
 
 .top{
-  background-color: rgb(245, 23, 23);
+  background: rgb(247,243,243);
+background: linear-gradient(45deg, rgba(247,243,243,1) 50%, rgba(196,160,197,1) 50%, rgba(80,12,90,1) 100%);
+}
+
+.top .btn{
+  background: rgb(247,243,243);
+background: linear-gradient(45deg, rgba(247,243,243,1) 50%, rgba(196,160,197,1) 50%, rgba(80,12,90,1) 100%);
 }
 
 .middle{
